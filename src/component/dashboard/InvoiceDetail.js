@@ -92,7 +92,9 @@ const InvoiceDetail = () => {
             <div className='company-info'>
               <h2 className='company-name'>{data.companyName || localStorage.getItem('cName')}</h2>
               {data.companyAddress && <p>{data.companyAddress}</p>}
+              }
               {data.companyPhone && <p>{data.companyPhone}</p>}
+              }
               <p>{data.companyEmail || localStorage.getItem('email')}</p>
             </div>
           </div>
@@ -129,7 +131,9 @@ const InvoiceDetail = () => {
           <div className='client-info'>
             <p className='client-name'>{data.to}</p>
             {data.clientEmail && <p>{data.clientEmail}</p>}
+            }
             {data.phone && <p>{data.phone}</p>}
+            }
             <p>{data.address}</p>
           </div>
         </div>

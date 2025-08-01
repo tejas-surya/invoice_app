@@ -193,6 +193,7 @@ const NewInvoice = () => {
                         </button>
                         <button onClick={saveData} className='preview-btn primary' disabled={isLoading}>
                             {isLoading && <i className="fa-solid fa-spinner fa-spin-pulse"></i>} Save Invoice
+                            }
                         </button>
                     </div>
                 </div>
@@ -282,6 +283,7 @@ const NewInvoice = () => {
                     </button>
                     <button onClick={saveData} className='add-btn primary' disabled={isLoading}>
                         {isLoading && <i className="fa-solid fa-spinner fa-spin-pulse"></i>} Save Invoice
+                        }
                     </button>
                 </div>
             </div>
